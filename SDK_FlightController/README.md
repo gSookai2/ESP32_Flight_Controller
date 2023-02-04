@@ -8,5 +8,5 @@ Using the SDK to rebuild the flight controller with esp-idf function calls. Also
 # To-Do
 
 ~~1. Setting up logging functionality for board~~
-2. Set up timer to use
+~~2. Set up timer to use~~
 3. Add in motor control PWM functionality from example
