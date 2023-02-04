@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/home/ghanshyam/ESP32_Flight_Controller/SDK_FlightController/build/CMakeFiles/bootloader
+/home/ghanshyam/ESP32_Flight_Controller/SDK_FlightController/build/CMakeFiles/bootloader.rule
+/home/ghanshyam/ESP32_Flight_Controller/SDK_FlightController/build/CMakeFiles/bootloader-complete.rule
+/home/ghanshyam/ESP32_Flight_Controller/SDK_FlightController/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/home/ghanshyam/ESP32_Flight_Controller/SDK_FlightController/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/home/ghanshyam/ESP32_Flight_Controller/SDK_FlightController/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/home/ghanshyam/ESP32_Flight_Controller/SDK_FlightController/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/home/ghanshyam/ESP32_Flight_Controller/SDK_FlightController/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/home/ghanshyam/ESP32_Flight_Controller/SDK_FlightController/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/home/ghanshyam/ESP32_Flight_Controller/SDK_FlightController/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

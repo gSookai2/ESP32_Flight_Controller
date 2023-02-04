@@ -1,0 +1,44 @@
+-- IDF_TARGET not set, using default target: esp32
+-- Found Git: /usr/bin/git (found version "2.34.1") 
+-- The C compiler identification is GNU 11.2.0
+-- The CXX compiler identification is GNU 11.2.0
+-- The ASM compiler identification is GNU
+-- Found assembler: /home/ghanshyam/.espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /home/ghanshyam/.espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /home/ghanshyam/.espressif/tools/xtensa-esp32-elf/esp-2022r1-11.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Building ESP-IDF components for target esp32
+-- Project sdkconfig file /home/ghanshyam/ESP32_Flight_Controller/SDK_FlightController/sdkconfig
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of time_t
+-- Check size of time_t - done
+-- Found Python3: /home/ghanshyam/.espressif/python_env/idf5.1_py3.10_env/bin/python (found version "3.10.6") found components: Interpreter 
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS - Success
+-- App "main" version: b5f6aa7
+-- Adding linker script /home/ghanshyam/ESP32_Flight_Controller/SDK_FlightController/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script /home/ghanshyam/esp-idf/components/esp_system/ld/esp32/sections.ld.in
+-- Adding linker script /home/ghanshyam/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script /home/ghanshyam/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script /home/ghanshyam/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script /home/ghanshyam/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script /home/ghanshyam/esp-idf/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script /home/ghanshyam/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script /home/ghanshyam/esp-idf/components/soc/esp32/ld/esp32.peripherals.ld
+-- Components: app_trace app_update bootloader bootloader_support bt cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json log lwip main mbedtls mqtt newlib nvs_flash openthread partition_table perfmon protobuf-c protocomm pthread sdmmc soc spi_flash spiffs tcp_transport ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: /home/ghanshyam/esp-idf/components/app_trace /home/ghanshyam/esp-idf/components/app_update /home/ghanshyam/esp-idf/components/bootloader /home/ghanshyam/esp-idf/components/bootloader_support /home/ghanshyam/esp-idf/components/bt /home/ghanshyam/esp-idf/components/cmock /home/ghanshyam/esp-idf/components/console /home/ghanshyam/esp-idf/components/cxx /home/ghanshyam/esp-idf/components/driver /home/ghanshyam/esp-idf/components/efuse /home/ghanshyam/esp-idf/components/esp-tls /home/ghanshyam/esp-idf/components/esp_adc /home/ghanshyam/esp-idf/components/esp_app_format /home/ghanshyam/esp-idf/components/esp_common /home/ghanshyam/esp-idf/components/esp_eth /home/ghanshyam/esp-idf/components/esp_event /home/ghanshyam/esp-idf/components/esp_gdbstub /home/ghanshyam/esp-idf/components/esp_hid /home/ghanshyam/esp-idf/components/esp_http_client /home/ghanshyam/esp-idf/components/esp_http_server /home/ghanshyam/esp-idf/components/esp_https_ota /home/ghanshyam/esp-idf/components/esp_https_server /home/ghanshyam/esp-idf/components/esp_hw_support /home/ghanshyam/esp-idf/components/esp_lcd /home/ghanshyam/esp-idf/components/esp_local_ctrl /home/ghanshyam/esp-idf/components/esp_netif /home/ghanshyam/esp-idf/components/esp_netif_stack /home/ghanshyam/esp-idf/components/esp_partition /home/ghanshyam/esp-idf/components/esp_phy /home/ghanshyam/esp-idf/components/esp_pm /home/ghanshyam/esp-idf/components/esp_psram /home/ghanshyam/esp-idf/components/esp_ringbuf /home/ghanshyam/esp-idf/components/esp_rom /home/ghanshyam/esp-idf/components/esp_system /home/ghanshyam/esp-idf/components/esp_timer /home/ghanshyam/esp-idf/components/esp_wifi /home/ghanshyam/esp-idf/components/espcoredump /home/ghanshyam/esp-idf/components/esptool_py /home/ghanshyam/esp-idf/components/fatfs /home/ghanshyam/esp-idf/components/freertos /home/ghanshyam/esp-idf/components/hal /home/ghanshyam/esp-idf/components/heap /home/ghanshyam/esp-idf/components/http_parser /home/ghanshyam/esp-idf/components/idf_test /home/ghanshyam/esp-idf/components/ieee802154 /home/ghanshyam/esp-idf/components/json /home/ghanshyam/esp-idf/components/log /home/ghanshyam/esp-idf/components/lwip /home/ghanshyam/ESP32_Flight_Controller/SDK_FlightController/main /home/ghanshyam/esp-idf/components/mbedtls /home/ghanshyam/esp-idf/components/mqtt /home/ghanshyam/esp-idf/components/newlib /home/ghanshyam/esp-idf/components/nvs_flash /home/ghanshyam/esp-idf/components/openthread /home/ghanshyam/esp-idf/components/partition_table /home/ghanshyam/esp-idf/components/perfmon /home/ghanshyam/esp-idf/components/protobuf-c /home/ghanshyam/esp-idf/components/protocomm /home/ghanshyam/esp-idf/components/pthread /home/ghanshyam/esp-idf/components/sdmmc /home/ghanshyam/esp-idf/components/soc /home/ghanshyam/esp-idf/components/spi_flash /home/ghanshyam/esp-idf/components/spiffs /home/ghanshyam/esp-idf/components/tcp_transport /home/ghanshyam/esp-idf/components/ulp /home/ghanshyam/esp-idf/components/unity /home/ghanshyam/esp-idf/components/usb /home/ghanshyam/esp-idf/components/vfs /home/ghanshyam/esp-idf/components/wear_levelling /home/ghanshyam/esp-idf/components/wifi_provisioning /home/ghanshyam/esp-idf/components/wpa_supplicant /home/ghanshyam/esp-idf/components/xtensa
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ghanshyam/ESP32_Flight_Controller/SDK_FlightController/build
